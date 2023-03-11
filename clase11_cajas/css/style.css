@@ -1,0 +1,40 @@
+body{
+
+}
+h2{
+
+}
+section{
+    background-color: #1e5072;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 500px;
+
+}
+.box{
+
+}
+
+
+.caja1{
+    background-color: red;
+    
+
+}
+.caja2{
+    background-color: chartreuse;
+
+}
+.caja3{
+    background-color: blueviolet;
+
+}
+.caja4{
+    background-color: azure;
+
+}
+.caja5{
+    background-color: darkgoldenrod;
+
+}

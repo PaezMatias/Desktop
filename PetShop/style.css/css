@@ -1,0 +1,313 @@
+*{
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+body{
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    background-color: lightgrey;
+}
+
+/*Barra superior*/
+
+.SupBar{
+    color: white;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    height: 20%;
+    padding-top: 5px;
+    align-items: center;
+    justify-content: center;
+}    
+
+.SupBar p:first-child{
+    margin-left: 70px;
+    margin-right: 700px;
+}
+
+.SupBar p:last-child{
+    margin-right: 50px ;
+}
+
+.SupBar p#Esp{
+    margin-right: 15px;
+}
+
+p{
+    font-size: 11px;
+}
+
+/*Barra de navegación*/
+
+.NavBar{
+    background-color: #F0A83E;
+    display: flex;
+    align-items: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 0;
+}
+
+.logo{
+    margin-left: 40px;
+    margin-right: 350px;
+    width: 200px;
+}
+
+a{
+    margin-right: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(84, 80, 78);
+}
+
+.Huesos{
+    width: 20px;
+    margin-right: 4px;
+}
+
+/*Banner*/
+
+.Banner{
+    background-image:"img/plato.jpg";
+    height: 500px;
+    margin-top: 0;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.bannerText h3{
+    color: white;
+    background-color: rgb(233, 114, 16);
+    display: inline;
+    padding: 20px;
+    margin-left: 81px;
+    height: 25px;
+    border-radius: 9px;
+    margin-bottom: 10px;
+}
+
+.bannerText h2{
+    margin-top: 35px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.bannerText a{
+    color: white;
+    margin-left: 135px;
+    background-color: #F0A83E;
+    border-color: #F0A83E;
+    border-radius: 4px;
+    font-size: 23px;
+    width: 150;
+    height: 40px;
+    padding: 8px;
+}
+
+ /*PRODUCTOS DESTACADOS */
+
+.productos{
+    margin: auto;
+    background-color: white;
+ }
+
+.imagenPatita{
+    padding-top: 20px;
+    display: flex;
+    margin-left: 490px;
+    width: 75px;
+}
+
+.productos h1{
+    margin-left: 378px;
+    font-size: 30px;
+}
+
+.productos p{
+    margin-left: 416px;
+    font-size: 15px;
+}
+
+.juguetes{
+    display: flex;
+    margin-left: 69px;
+    margin-top: 110px;
+    text-align: center;
+    margin-bottom: 0;
+    padding-bottom: 40px;
+}
+
+.juguetes .bife{
+    margin-right: 125px;
+    margin-top: 25px;
+}
+
+.juguetes .comedero{
+    margin-right: 125px;
+    margin-bottom: 10px;
+}
+
+.juguetes .huesito{
+    margin-top: 23px;
+}
+
+.juguetes .bife h3{
+    margin-top: 43px;
+}
+
+.juguetes .huesito h3{
+    margin-top: 37px;
+}
+
+.precioComedero{
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+/*CONTACTO*/
+
+.Contacto{
+    padding-top: 1px;
+    display: flex;
+    background-color: white;
+    display: block;
+}
+
+.Contacto h2{
+    margin-left: 450px;
+    font-size: 27px;
+    margin-bottom: 50px;
+}
+
+.Contacto input{
+    color: white;
+    background-color: #3C2313;
+    display: block;
+    margin-left: 328px;
+    font-size: 15px;
+    margin-bottom: 15px;
+    width: 400px;
+    height: 50px;
+    border-radius: 20px;
+    padding-left: 15px;
+}
+
+.botones{
+    margin-left: 390px;
+    margin-top: 70px;
+    padding-bottom: 70px;
+}
+
+.botones button:first-of-type{
+    margin-right: 8px;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #8A8787;
+    border: none;
+    color: white;
+}
+
+.botones button:last-of-type{
+    margin-left: 8px;
+    width: 130px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 20px;
+    background-color: #F0A83E;
+    border: none;
+    color: white;
+}
+
+/*SUSCRIPCION*/
+
+.Suscribete{
+    display: flex;
+    background-color: #F0A83E;
+    align-items: center;
+}
+
+.Suscribete img{
+    width: 40px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+
+.Suscribete h3{
+    margin-right: 430px;
+}
+
+.Suscribete input{
+    margin-right: 5px;
+    font-size: 11px;
+    height: 40px;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 20px;
+    width: 170px;
+    border: none;
+}
+
+.Suscribete button{
+    height: 39px;
+    border-radius: 20px;
+    border: none;
+    background-color: #3C2313;
+    color: white;
+}
+
+/*DATOS DE CONTACTO*/
+
+.Datos{
+    background-color: #3C2313;
+}
+
+.Datos .Opciones{
+    display: flex;
+    align-items: center;
+}
+
+
+.logoFooter{
+    width: 250px;
+    margin-left: 420px;
+}
+
+.contactoFooter{
+    width: 60px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-left: 60px;
+    margin-right: 20px;
+    background-color: rgb(215, 213, 213);
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.Datos h3, p{
+    color: white;
+}
+
+.Datos p{
+    margin-left: 10px;
+}
+
+footer .derechos{
+    background-color: black;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
