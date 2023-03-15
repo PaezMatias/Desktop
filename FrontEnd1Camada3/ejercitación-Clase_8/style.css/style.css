@@ -1,5 +1,12 @@
+header
+{
+        background-position: center;
+	background-color: black;
+	background-size: cover;
+}
+
 body{
-    background-color: #E6E6E6;
+    background-color: rgb(68, 67, 61);
 }
 .cabeza{
     display:flex;
@@ -8,25 +15,25 @@ body{
 }
 
 h1{
-    color: #005677;
-    background-color: #C4C4C4;
+    color: rgb(247, 183, 8);
+    background-color: #2f2f30;
     text-align: center;
 }
 
 h2{
-    color: #005677;
-    background-color: #C4C4C4;
+    color: rgb(247, 183, 8);
+    background-color: #2f2f30;
     font-size: 20px;
     font-weight: 700;
 }
 
 footer{
     color: #FFFFFF;
-    background-color: #005677;
+    background-color: rgb(13, 13, 13);
     text-align: center;
     margin-left: 12%;
     margin-right: 10%;
-    display:flex;
+    display:;
     align-items: center;
     justify-content: center;
     
@@ -42,7 +49,7 @@ main{
 }
 
 footer img{
-            background-color: #005677;
+            background-color: rgb(13, 13, 13);
             width: 20px;
             height: 20px;
             margin-left: 5px;
@@ -52,8 +59,8 @@ footer p{
         margin-right: 15px;
 }
 .textoblanco{
-    color: white;
-    background-color: #005677;
+    color: rgb(247, 183, 8);
+    background-color: rgb(13, 13, 13);
     font-family: Times New Roman;
     font-size: 25px;
     font-weight: 700;
