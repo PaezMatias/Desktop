@@ -1,0 +1,370 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+/***** Medidas para Dispositivos 480px *****/
+/***Header ***/
+/*** Barra de navegacion ***/
+header h1{
+    display: none;
+}
+.barNav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+.barNav nav, .barNav button{
+    display: none;
+}
+.barNav nav ul li{
+    display: inline-flex;
+    margin-right: 15px;
+}
+.barNav nav ul li a{
+    color:#232C50;
+    font-size: 0.85rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+.barNav nav ul li a:hover{
+    color: #B3B2B7;
+    transform: scale(1.1);
+    transition: color 0.3s ease-in-out;
+    transition: transform 0.3s ease-in-out;
+}
+/*** Logo ***/
+.barNav .logo, footer .logo{
+    display: flex;
+    align-items: center;
+}
+.barNav img, footer .logo img{
+    width: 100%;
+    height: 100%;
+    padding-right: 7px;
+}
+.barNav p, footer .logo p{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+/*** Fin - Logo ***/
+.barNav i{
+font-size: 2rem;
+}
+/*** Banner Header ***/
+.banner {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+.banner div, .banner article {
+    width: 400px;
+}
+.banner img{
+    width: 100%;
+}
+.banner article {
+    text-align: end;
+}
+.banner h2{
+    color: #232C50;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 114.6%;
+}
+.banner p{
+    font-weight: 500;
+    font-size: 1.1rem;
+    line-height: 157.1%;
+    margin-top: 20px;
+}
+/*** Botton Banner + Barra navegacion ***/
+.banner button, .barNav button {
+    background-color: #8B48BF;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    margin: 30px 0;
+    padding: 10px;
+    width: 134px;
+}
+
+/*** Encabezado Main ***/
+.encabezadoMain{
+    background-color: #3CDDF3;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    padding: 40px 20px;
+}
+.encabezadoMain h3{
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 114.6%;
+    margin-bottom: 50px;
+}
+.encabezadoMain p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 151.1%;
+}
+/*** Section reporteria ***/
+.reporteria{
+    display: flex;
+    flex-direction: column;
+    margin: 50px 0 50px 34px;
+}
+.reporteria h4{
+    background-color: rgba(139, 72, 191, 0.30);
+    padding: 13px 60px;
+    font-size: 0.9rem;
+    font-weight: 700;
+    letter-spacing: -0.01rem;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    text-align: start;
+    position: relative;
+}
+.reporteria span{
+    background-color: #8B48BF;
+    color: #ffffff;
+    border-radius: 25px;
+    font-weight: 400;
+    padding: 13px 25px;
+    margin-right: 30px;
+    position: absolute;
+    top: 0;
+    left: -17px;
+}
+.reporteria p{
+    color: #B3B2B7;
+    font-size: 0.9rem;
+    font-weight: 400;
+    line-height: 170%;
+    margin-bottom: 30px;
+}
+/*** Section Mejores del Mes ***/
+.articulos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 18px;
+    
+}
+.articulos h2{
+    color: #242E53;
+    font-weight: 700;
+    font-size: 2rem;
+    margin-bottom: 70px;
+}
+.jugadores{
+    display: flex;
+    flex-direction: row ;
+}
+.articulos article {
+    background-color: #FAFAFA;
+    line-height: 157.1%;
+    text-align: center;
+}
+.articulos article img{
+    position: relative;
+    top: -30px;
+} 
+.articulos article p{
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+.articulos article span{
+    color: #B3B2B7;
+    font-weight: 200;
+    font-size: 1rem;
+}
+.articulos #Sanyo, .articulos #Navarro{
+    display: none; 
+}
+.articulos a{
+    background-color: #8B48BF;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 0.7rem;
+    font-weight: 400;
+    margin: 30px;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+/***Mejor equipo del año***/
+.mejorEquipo{
+    background-color: #3CDDF3;
+    color: #ffffff;
+    text-align: center;
+    padding: 30px 80px;
+    
+}
+.mejorEquipo p{
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 130%;
+    margin-bottom: 30px;
+}
+.mejorEquipo a{
+    background-color:#232C50;
+    border: none;
+    border-radius: 24px;
+    color: #ffffff;
+    padding: 10px 40px;
+    text-decoration: none;
+}
+/*** Footer***/
+footer{
+    background-color: #1E1E26;
+    text-align: center;
+    padding: 20px 30px 0 0;
+}
+
+
+/*** Footer-Formulario*/
+footer .encabezadoFooter, footer .barraNavegacion, footer .formulario, footer .redesSociales{
+    display: flex;
+}
+footer .encabezadoFooter{
+    flex-direction: column-reverse;
+    align-items: center;
+}
+footer .formulario input {
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 310px;
+    font-size: 0.8rem;
+}
+footer .formulario button {
+    background-color: #8B48BF;
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    margin-left: 10px;
+    padding: 10px 20px;
+}
+/* Footer - Botones Navegacion*/
+footer .barraNavegacion {
+    width: 100%;
+    justify-content: space-around;
+    margin: 30px 0;
+}
+footer .barraNavegacion a{
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 170%;
+    text-decoration: none;
+}
+/* Footer - Redes Sociales*/
+footer .redesSociales{
+    align-items: center;
+    color: #ffffff;
+    flex-direction: column-reverse;
+    height: 100px;
+    justify-content: space-between;
+    width: 100%;
+}
+footer .redesSociales i{
+    margin: 0 23px;
+    font-size: 1.5rem;
+}
+/* Footer - Legales*/
+footer .legales{
+    color:#B3B2B7;
+    opacity: 0.7;
+    padding: 40px;
+}
+/* Media Querie para Laptop*/
+@media (min-width: 481px){
+    /* Header */
+    /* Barra de navegacion */
+    .barNav{
+        justify-content: space-around;
+    }
+    .barNav i{
+        display: none;
+    }
+    .barNav nav, .barNav button{
+        display: inherit;
+    }
+    
+    /* Banner Header */
+    .banner{
+        flex-direction: row;
+        justify-content: center; 
+    }
+    .banner button:hover, .barNav button:hover, .articulos a:hover{
+        background-color: rgba(139, 72, 191, 0.5);
+        color: #232C50;
+        transition: background-color 0.7s ease-in-out;
+        transition: color 0.7s ease-in-out;
+    }
+    .banner div{
+        margin-right: 100px;
+    }
+    /* Main */
+    /* Encabezado Main */
+    .encabezadoMain{
+        align-items: center;
+        background-color: #8B48BF;
+        flex-direction: row;
+        padding-right: 10%;
+        padding-left: 10%;
+    }
+    .encabezadoMain h3{
+        padding-top: 35px;
+        width: 1200px;
+    }
+    /* Section reporteria */
+    .reporteria{
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .reporteria article{
+        width: 550px;
+    }
+    .reporteria h4{
+        background-color:#ffffff;
+    }
+    .reporteria p{
+        padding-left: 14%;
+    }
+    /* Section Mejores del Mes */
+    .articulos #Sanyo, .articulos #Navarro{
+        display: inline-block; 
+    }
+    /*Mejor equipo del año*/
+    .mejorEquipo{
+        align-items: center;
+        background-color: #8B48BF;
+        display: flex;
+        justify-content: space-between;
+    }
+    .mejorEquipo p{
+        width: 500px;
+        text-align: start;
+    }
+    .mejorEquipo a{
+        background-color: #ffffff;
+        color: #232C50;
+    }
+    /* Footer*/
+    footer .encabezadoFooter{
+        flex-direction: row;
+    }
+    footer .redesSociales{
+        flex-direction: column;
+    }
+    footer .formulario{
+        flex-direction: row;
+    }
+    footer .legales{
+        text-align: end;
+    }
+}
